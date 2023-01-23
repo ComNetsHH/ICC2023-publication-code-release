@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/ddd.svg)](https://zenodo.org/badge/latestdoi/ddd)
+[![DOI](https://zenodo.org/badge/591375498.svg)](https://zenodo.org/badge/latestdoi/591375498)
 
 ---
 
