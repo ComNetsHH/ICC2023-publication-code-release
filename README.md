@@ -32,7 +32,7 @@ pkg> instantiate
 5. Familiarize yourself with the source code:
     - Calculations are started and configured by `scirpts/evaluation/analysis_runner.jl`
     - A-Star search variants are implemented in `src/solvers/a_star.jl` and `src/solvers/incremental_a_star.jl`
-    - Plots and analysis are conducted using `DataFrames` and the code to reproduce the publication figures is located at `scripts/processing/`
+    - Plots and analysis are conducted using `DataFrames` and the code to reproduce the publication figures is located at `scripts/processing/`. The plotters use PyPlot and as such a local python installation with the matplotlib package is required.
     - Graph data and result data are stored in `data/exp_raw` and `data/exp_res` respectively. You may need to decompress the data sets used for the publication.
 6. To run the calculations and find systematic / network coded schedules run the `analysis_runner.jl` via 
 ```julia

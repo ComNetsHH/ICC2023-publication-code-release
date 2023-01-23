@@ -18,6 +18,9 @@
 #  along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # 
 
+using DrWatson
+quickactivate("age-optimal-multisource-flooding")
+
 using DataFrames, Statistics, PyPlot, Graphs, GraphIO, Colors
 
 function rounds(value, step)
